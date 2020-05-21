@@ -1,0 +1,54 @@
+Developing Data Products Week 4
+========================================================
+author: 
+date: 22/5/2020
+autosize: true
+
+Overview
+========================================================
+
+This assignment has two parts:
+
+ * First, a Shiny application and deployed on Rstudio's servers
+ * Second, reproducible pitch presentation about the application
+
+The files for this project can be found at Github:
+<https://github.com/yomnaFathy/DevelopingDataProductsW4>  
+
+The link for this presentation:
+<https://yomnafathy.github.io/DevelopingDataProductsW4/pitch.Rpres>
+
+
+Application 
+========================================================
+
+Url for shiny application
+<https://yomnafathy.shinyapps.io/DevelopingDataProductsW4/>
+
+This application is built using `USArrests` dataset, available in datasets package.
+
+The app contains 2 tabs:
+
+- *Data tab*
+    * Explore the summary or structure of the dataset
+    * Print number of observations from the dataset
+    
+- *Clustring tab*
+    * lustring data using K-means algorithm
+    * Choose any two variables and number of clusters to cluster the data with
+    * Plot that shows clusters of the data is shown
+
+Application
+========================================================
+![Data tab](pitch-figure/data.png)
+
+R Code
+========================================================
+
+```{r}
+str(USArrests)
+```
+
+
+
+
